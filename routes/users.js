@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  var glossary = {
+  var cake = {
 	"id": "0001",
 	"type": "donut",
 	"name": "Cake",
@@ -28,8 +28,7 @@ router.get('/', function(req, res, next) {
 			{ "id": "5004", "type": "Maple" }
 		]
 }
-};
-  res.send(glossary);
+  res.send(cake);
 });
 
 module.exports = router;
