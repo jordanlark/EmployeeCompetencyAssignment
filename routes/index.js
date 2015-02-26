@@ -6,4 +6,16 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Awesome App' });
 });
 
+router.get('/', function(req, res, next) {
+  res.send('Post is working!');
+});
+
+
+router.post('/api', function(req, res, next){
+  console.log(req.body.username);
+  console.log(req.body.email);
+  res.send(req.body);
+});
+
+
 module.exports = router;
