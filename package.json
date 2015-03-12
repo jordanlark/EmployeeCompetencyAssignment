@@ -16,6 +16,7 @@
     "serve-favicon": "~2.2.0"
   },
   "devDependencies": {
-    "expect": "^1.6.0"
+    "expect": "^1.6.0",
+    "supertest": "^0.15.0"
   }
 }
