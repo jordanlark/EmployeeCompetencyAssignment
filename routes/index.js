@@ -10,7 +10,7 @@ router.post('/api', function(req, res, next){
   res.json({
     username: req.body.username,
     email: req.body.email
-  })
+  });
 });
 
 module.exports = router;

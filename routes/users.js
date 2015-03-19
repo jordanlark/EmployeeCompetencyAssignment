@@ -27,7 +27,7 @@ router.get('/', function(req, res, next) {
 			{ "id": "5003", "type": "Chocolate" },
 			{ "id": "5004", "type": "Maple" }
 		]
-}
+};
   res.send(cake);
 });
 
